@@ -1,0 +1,19 @@
+# 核心依赖（已按 langchain 1.x 的包结构对齐）
+langchain>=1.0,<2.0
+langchain-core>=1.0,<2.0
+langchain-text-splitters>=1.0,<2.0
+langchain-community>=0.4,<1.0
+langchain-chroma>=0.2,<1.0
+chromadb>=0.5,<2.0
+python-dotenv>=1.0
+
+# 模型提供方：按需保留，只用一个也可以删掉另一个
+langchain-ollama>=1.0,<2.0
+langchain-openai>=1.0,<2.0
+
+# 文档解析
+pypdf>=4.0
+python-docx>=1.1
+
+# 测试
+pytest>=8.0
